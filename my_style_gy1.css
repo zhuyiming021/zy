@@ -1,0 +1,339 @@
+*{margin: 0;padding: 0;}
+
+body{
+	font-family: "Microsoft Yahei",sans-serif;
+}
+
+header{
+	background-image:url('data/h.jfif');
+	background-size: contain;
+	background-repeat: repeat;
+	font-weight:lighter;/*The font size*/
+	color:black;
+	width:100%; /*Width and height*/
+	height:990px;
+	text-align:center; /*center */
+	margin:0 auto;/*margin*/
+	
+	
+}
+
+p{
+	font-weight:lighter;/*The font size*/
+	color:black;
+	text-align:left; /*center*/
+	margin:0 auto;/*margin*/
+	font-size: 21px;
+	
+}
+h3{
+	font-weight:lighter;/*The font size*/
+	color:black;
+	text-align:center; /*center */
+	margin:0 auto;/*margin*/
+	font-size: 21px;
+	
+}
+
+#title{
+   display: inline-block;
+	margin-top: 80px;
+	font-size: 64px;
+}
+
+#introduction{
+   display: inline-block;
+	margin-top:30px;
+	font-size: 48px;
+}
+
+#top{
+	width: 1500px;
+	height: 75px;
+	margin: 0 auto;
+	padding-top:25px;
+	padding-left:15px;
+	padding-right:15px; 
+}
+ 
+.top_L{
+	display: inline-block;
+	float: right;
+}
+ 
+.top_Ul{
+	display: inline-block;
+	padding-left: 0;
+	margin-bottom: 0; 
+}
+ 
+.top_L li{
+	font-family: Oswald,sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #8A8A8A;
+	display: inline-block;
+	text-align: center;
+	margin: 0 10px;
+	float: right;
+}
+
+section{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	/*border-bottom: 2px solid rgb(200, 200, 200);*/
+}
+
+#second{
+	height: 700px;
+}
+
+#second>div:nth-child(1){
+	display: inline-block;
+	margin-top: 80px;
+	font-size: 56px;
+	
+}
+
+#second>div:nth-child(2){
+	margin-top: 60px;
+	font-size: 48px;
+	height: 120px;
+	font-weight: lighter;
+}
+
+#info{
+	width: 80%;
+	height: 450px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+#info div{
+	width: 50%;
+	height: 120px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+#info p{
+	font-size: 15px;
+	color: black;
+	font-weight: lighter;
+}
+#baozi,#yuanzi,#chaomi{
+	float: left;
+}
+
+#things{
+	float: right;
+}
+
+#info div img{
+	display: block;
+	float: left;
+	padding: 0 15px 80px 20px;
+}
+
+#info div h1{
+	font-size: 21px;
+	padding-bottom: 10px;
+	
+}
+
+	
+	
+#third{
+	height: 750px;
+	/*The image path must not have Spaces*/
+	background-image: url('data/c.jfif');
+	background-size: contain;
+	background-repeat: repeat;
+	text-align: right;
+	color: white;
+	font-weight: lighter;
+}
+
+
+
+
+#supportive{
+	width: 50%;
+	height: 480px;
+	float: right;
+	padding: 150px 0 0 10%;
+}
+
+#supportive h1{
+	font-size: 58px;
+	font-weight: lighter;
+
+}
+
+#supportive p{
+	font-size: 18px;
+	color: white;
+	font-weight: weight;
+}
+
+
+#forth{
+	height: 700px;
+}
+
+#forth>div:nth-child(1){
+	display: inline-block;
+	margin-top: 120px;
+	font-size: 66px;
+	height: 120px;
+	font-weight: lighter;
+}
+
+#forth>div:nth-child(2){
+	margin-top: 60px;
+	font-size: 48px;
+	height: 170px;
+	font-weight: lighter;
+}
+
+#infor{
+	width: 80%;
+	height: 450px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+#infor div{
+	width: 50%;
+	height: 120px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+#ren{
+	float: left;
+}
+
+#ju{
+	float: right;
+}
+
+#infor div img{
+	display: block;
+	float: left;
+	padding: 0 15px 80px 20px;
+}
+
+#infor div h1{
+	padding-bottom: 10px;
+}
+
+#infor p{
+	width: 50%;
+	height: 120px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+
+#fifth{
+	height: 990px;
+	/*The image path must not have Spaces*/
+	background-image: url('data/u.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-align: left;
+	color: white;
+	font-weight: lighter;
+}
+
+
+
+
+#supportives{
+	width: 70%;
+	height: 480px;
+	float:left;
+	padding: 150px 0 0 10%;
+}
+
+#supportives h1{
+	font-size: 58px;
+	font-weight: lighter;
+
+}
+
+#supportives p{
+	font-size: 18px;
+	color: white;
+	font-weight: weight;
+}
+
+
+#sixth{
+	height: 990px;
+	/*The image path must not have Spaces*/
+	background-image: url('data/ql.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-align: left;
+	color: white;
+	font-weight: lighter;
+}
+
+
+
+
+#supportivess{
+	width: 80%;
+	height: 80px;
+	float:left;
+	padding: 660px 0 0 10%;
+}
+
+#supportivess h1{
+	font-size: 58px;
+	font-weight: lighter;
+
+}
+
+#supportivess p{
+	font-size: 18px;
+	color: white;
+	font-weight: weight;
+}
+
+
+#ninth{
+	height: 750px;
+	/*The image path must not have Spaces*/
+	background-image: url('data/tower.jpeg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: right;
+	color: white;
+	font-weight: lighter;
+}
+
+
+
+
+#supportiven{
+	width: 80%;
+	height: 480px;
+	float: right;
+	padding: 150px 0 0 10%;
+}
+
+#supportiven h1{
+	font-size: 58px;
+	font-weight: lighter;
+
+}
+
+#supportiven p{
+	font-size: 18px;
+	color: white;
+	font-weight: weight;
+}
